@@ -1,3 +1,29 @@
-﻿.container {
-	padding: 5vh 0;
+﻿* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#carousel {
+	width: 100%;
+	margin: 100px auto;
+	overflow: hidden;
+	/*position: relative;*/
+}
+.img {
+	text-align:center;
+	width: 400px;
+	height: 400px;
+	padding: 10px 10px;
+	
+}
+ul {
+	width: 2000px;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+	/*overflow: hidden;*/ /*potrzebne?*/
+	display: inline-block;
 }
