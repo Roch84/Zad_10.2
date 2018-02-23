@@ -1,6 +1,4 @@
 ﻿* {
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -8,8 +6,8 @@
 	width: 100%;
 	margin: 100px auto;
 	overflow: hidden;
-	/*position: relative;*/
 }
+
 .img {
 	text-align:center;
 	width: 400px;
@@ -17,6 +15,7 @@
 	padding: 10px 10px;
 	
 }
+
 ul {
 	width: 2000px;
 }
@@ -24,6 +23,5 @@ ul {
 li {
 	list-style-type: none;
 	float: left;
-	/*overflow: hidden;*/ /*potrzebne?*/
 	display: inline-block;
 }
